@@ -1,0 +1,41 @@
+INFO  2015.02.09 19:56:50.750 sl    - KDB+ ver: 3.2 rel: 2014.12.05 OS: m32 PID: 27618
+INFO  2015.02.09 19:56:50.750 sl    - no license found
+INFO  2015.02.09 19:56:50.750 sl    - user: himanshugupta host: himanshus-macbook-pro.local port: 18012
+INFO  2015.02.09 19:56:50.750 sl    - dir: /Users/himanshugupta/DemoSystem/Enterprise-Component/bin/ec/components/hdb file: hdb.q
+INFO  2015.02.09 19:56:50.750 sl    - no command line parameters
+INFO  2015.02.09 19:56:50.750 sl    - GMT: 2015.02.09T19:56:50.750 loc. time: 2015.02.09T14:56:50.750
+INFO  2015.02.09 19:56:50.750 sl    - QHOME: /Users/himanshugupta/DemoSystem/Enterprise-Component/bin/q/
+INFO  2015.02.09 19:56:50.750 sl    - Loading qsl/event.q library...
+INFO  2015.02.09 19:56:50.752 sl    - /Users/himanshugupta/DemoSystem/Enterprise-Component/bin/ec/libraries/qsl/event.q loaded
+INFO  2015.02.09 19:56:50.752 sl    - Loading qsl/handle.q library...
+INFO  2015.02.09 19:56:50.768 sl    -   Loading qsl/callback.q library...
+INFO  2015.02.09 19:56:50.795 sl    -   /Users/himanshugupta/DemoSystem/Enterprise-Component/bin/ec/libraries/qsl/callback.q loaded
+INFO  2015.02.09 19:56:50.795 sl    -   qsl/timer.q library already loaded
+INFO  2015.02.09 19:56:50.798 sl    - /Users/himanshugupta/DemoSystem/Enterprise-Component/bin/ec/libraries/qsl/handle.q loaded
+INFO  2015.02.09 19:56:50.798 sl    - Loading qsl/authorization.q library...
+INFO  2015.02.09 19:56:50.802 sl    - /Users/himanshugupta/DemoSystem/Enterprise-Component/bin/ec/libraries/qsl/authorization.q loaded
+INFO  2015.02.09 19:56:50.802 sl    - Loading qsl/sub.q library...
+INFO  2015.02.09 19:56:50.821 sl    -   Loading qsl/sub_tickHF.q library...
+INFO  2015.02.09 19:56:50.827 sl    -   /Users/himanshugupta/DemoSystem/Enterprise-Component/bin/ec/libraries/qsl/sub_tickHF.q loaded
+INFO  2015.02.09 19:56:50.827 sl    -   Loading qsl/sub_tickLF.q library...
+INFO  2015.02.09 19:56:50.828 sl    -   /Users/himanshugupta/DemoSystem/Enterprise-Component/bin/ec/libraries/qsl/sub_tickLF.q loaded
+INFO  2015.02.09 19:56:50.828 sl    -   Loading qsl/sub_dist.q library...
+INFO  2015.02.09 19:56:50.830 sl    -   /Users/himanshugupta/DemoSystem/Enterprise-Component/bin/ec/libraries/qsl/sub_dist.q loaded
+INFO  2015.02.09 19:56:50.831 sl    - /Users/himanshugupta/DemoSystem/Enterprise-Component/bin/ec/libraries/qsl/sub.q loaded
+INFO  2015.02.09 19:56:50.831 sl    - Loading cfgRdr/cfgRdr.q library...
+INFO  2015.02.09 19:56:50.860 sl    -   Loading qsl/parseq.q library...
+INFO  2015.02.09 19:56:50.865 sl    -   /Users/himanshugupta/DemoSystem/Enterprise-Component/bin/ec/libraries/qsl/parseq.q loaded
+INFO  2015.02.09 19:56:50.882 sl    - /Users/himanshugupta/DemoSystem/Enterprise-Component/bin/ec/libraries/cfgRdr/cfgRdr.q loaded
+INFO  2015.02.09 19:56:50.883 cr    - Parsing qsd files
+INFO  2015.02.09 19:56:50.949 cr    - Parsing cfg files
+INFO  2015.02.09 19:56:51.102 hdb   - | status=`EVENT_STARTED| descr="initializing hdb component"| funcName=`.sl.main| arg=`| defVal=`| tsId=2015.02.09D19:56:51.102204000
+INFO  2015.02.09 19:56:51.110 hdb   - | status=`EVENT_STARTED| descr="hdb reloading, hdb dir:/Users/himanshugupta/DemoSystem/Enterprise-Component/..| funcName=`.hdb.p.reload| arg=()| defVal=`| tsId=2015.02.09D19:56:51.109717000
+INFO  2015.02.09 19:56:51.110 hdb   - | status=`EVENT_COMPLETED| descr="hdb reloading, hdb dir:/Users/himanshugupta/DemoSystem/Enterprise-Component/..| funcName=`.hdb.p.reload| resType=101h| resCnt=1| tsId=2015.02.09D19:56:51.110078000
+INFO  2015.02.09 19:56:51.111 hdb   - | status=`EVENT_COMPLETED| descr="initializing hdb component"| funcName=`.sl.main| resType=101h| resCnt=1| tsId=2015.02.09D19:56:51.102338000
+INFO  2015.02.09 19:56:51.123 cb    - Plugin .auth.p.pc for callback .z.pc will be always called as first one.
+INFO  2015.02.09 19:56:51.123 cb    - Plugin .auth.p.po for callback .z.po will be always called as first one.
+INFO  2015.02.09 19:56:51.123 auth  - uOpt in system.cfg is turned off, access for all users is granted. Audit view will be enabled only for users defined in access.cfg
+INFO  2015.02.09 19:56:51.125 sub   - | status=`EVENT_COMPLETED| descr="Reading subscription configuration for dist server"| funcName=`.sub.readCfg| resType=101h| resCnt=1| tsId=2015.02.09D19:56:51.124155000
+INFO  2015.02.09 19:56:51.126 sub   - | status=`EVENT_COMPLETED| descr="Auto initialization of subscription basing on dataflow configuration"| funcName=`.sub.init| resType=0h| resCnt=0| tsId=2015.02.09D19:56:51.126029000
+INFO  2015.02.09 19:56:51.127 sub   - | status=`EVENT_COMPLETED| descr="Auto initialization of connection to subscription sources basing on dataflow..| funcName=`.sub.hopenSrc| resType=0h| resCnt=0| tsId=2015.02.09D19:56:51.127231000
+INFO  2015.02.09 19:56:51.128 hdb   - component hdb initialized with 0 fatals, 0 errors, 0 warnings

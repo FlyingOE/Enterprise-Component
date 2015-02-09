@@ -1,0 +1,52 @@
+INFO  2015.02.09 19:47:34.418 sl    - KDB+ ver: 3.2 rel: 2014.12.05 OS: m32 PID: 27474
+INFO  2015.02.09 19:47:34.418 sl    - no license found
+INFO  2015.02.09 19:47:34.418 sl    - user: himanshugupta host: himanshus-macbook-pro.local port: 18011
+INFO  2015.02.09 19:47:34.418 sl    - dir: /Users/himanshugupta/DemoSystem/bin/ec/components/rdb file: rdb.q
+INFO  2015.02.09 19:47:34.418 sl    - no command line parameters
+INFO  2015.02.09 19:47:34.418 sl    - GMT: 2015.02.09T19:47:34.418 loc. time: 2015.02.09T14:47:34.418
+INFO  2015.02.09 19:47:34.418 sl    - QHOME: /Users/himanshugupta/DemoSystem/bin/q/
+INFO  2015.02.09 19:47:34.418 sl    - Loading qsl/event.q library...
+INFO  2015.02.09 19:47:34.420 sl    - /Users/himanshugupta/DemoSystem/bin/ec/libraries/qsl/event.q loaded
+INFO  2015.02.09 19:47:34.421 sl    - Loading qsl/handle.q library...
+INFO  2015.02.09 19:47:34.454 sl    -   Loading qsl/callback.q library...
+INFO  2015.02.09 19:47:34.470 sl    -   /Users/himanshugupta/DemoSystem/bin/ec/libraries/qsl/callback.q loaded
+INFO  2015.02.09 19:47:34.470 sl    -   qsl/timer.q library already loaded
+INFO  2015.02.09 19:47:34.472 sl    - /Users/himanshugupta/DemoSystem/bin/ec/libraries/qsl/handle.q loaded
+INFO  2015.02.09 19:47:34.473 sl    - Loading qsl/authorization.q library...
+INFO  2015.02.09 19:47:34.477 sl    - /Users/himanshugupta/DemoSystem/bin/ec/libraries/qsl/authorization.q loaded
+INFO  2015.02.09 19:47:34.477 sl    - Loading qsl/sub.q library...
+INFO  2015.02.09 19:47:34.483 sl    -   Loading qsl/sub_tickHF.q library...
+INFO  2015.02.09 19:47:34.484 sl    -   /Users/himanshugupta/DemoSystem/bin/ec/libraries/qsl/sub_tickHF.q loaded
+INFO  2015.02.09 19:47:34.484 sl    -   Loading qsl/sub_tickLF.q library...
+INFO  2015.02.09 19:47:34.485 sl    -   /Users/himanshugupta/DemoSystem/bin/ec/libraries/qsl/sub_tickLF.q loaded
+INFO  2015.02.09 19:47:34.486 sl    -   Loading qsl/sub_dist.q library...
+INFO  2015.02.09 19:47:34.487 sl    -   /Users/himanshugupta/DemoSystem/bin/ec/libraries/qsl/sub_dist.q loaded
+INFO  2015.02.09 19:47:34.488 sl    - /Users/himanshugupta/DemoSystem/bin/ec/libraries/qsl/sub.q loaded
+INFO  2015.02.09 19:47:34.488 sl    - Loading cfgRdr/cfgRdr.q library...
+INFO  2015.02.09 19:47:34.529 sl    -   Loading qsl/parseq.q library...
+INFO  2015.02.09 19:47:34.539 sl    -   /Users/himanshugupta/DemoSystem/bin/ec/libraries/qsl/parseq.q loaded
+INFO  2015.02.09 19:47:34.556 sl    - /Users/himanshugupta/DemoSystem/bin/ec/libraries/cfgRdr/cfgRdr.q loaded
+INFO  2015.02.09 19:47:34.556 sl    - qsl/handle.q library already loaded
+INFO  2015.02.09 19:47:34.556 sl    - qsl/sub.q library already loaded
+INFO  2015.02.09 19:47:34.556 sl    - Loading qsl/store.q library...
+INFO  2015.02.09 19:47:34.573 sl    - /Users/himanshugupta/DemoSystem/bin/ec/libraries/qsl/store.q loaded
+INFO  2015.02.09 19:47:34.573 cr    - Parsing qsd files
+INFO  2015.02.09 19:47:34.645 cr    - Parsing cfg files
+INFO  2015.02.09 19:47:34.833 rdb   - | status=`EVENT_STARTED| descr="initializing rdb component"| funcName=`.sl.main| arg=`| defVal=`| tsId=2015.02.09D19:47:34.833344000
+INFO  2015.02.09 19:47:34.853 store - store initialization completed
+INFO  2015.02.09 19:47:34.884 rdb   - | status=`EVENT_COMPLETED| descr="initializing rdb component"| funcName=`.sl.main| resType=101h| resCnt=1| tsId=2015.02.09D19:47:34.833565000
+INFO  2015.02.09 19:47:34.892 cb    - Plugin .auth.p.pc for callback .z.pc will be always called as first one.
+INFO  2015.02.09 19:47:34.892 cb    - Plugin .auth.p.po for callback .z.po will be always called as first one.
+INFO  2015.02.09 19:47:34.892 auth  - uOpt in system.cfg is turned off, access for all users is granted. Audit view will be enabled only for users defined in access.cfg
+INFO  2015.02.09 19:47:34.893 sub   - | status=`EVENT_COMPLETED| descr="Reading subscription configuration for dist server"| funcName=`.sub.readCfg| resType=101h| resCnt=1| tsId=2015.02.09D19:47:34.892472000
+INFO  2015.02.09 19:47:34.894 sub   - | status=`EVENT_COMPLETED| descr="Auto initialization of subscription basing on dataflow configuration"| funcName=`.sub.init| resType=101h| resCnt=1| tsId=2015.02.09D19:47:34.894213000
+INFO  2015.02.09 19:47:34.897 sub   - Initializing PROTOCOL_TICKHFcallbacks for :`sub`upd`jUpd
+INFO  2015.02.09 19:47:34.898 sub   - | status=`EVENT_STARTED| descr="garbage collection"| funcName=`.Q.gc| arg=()| defVal=`| tsId=2015.02.09D19:47:34.898369000
+INFO  2015.02.09 19:47:34.899 sub   - | status=`EVENT_COMPLETED| descr="garbage collection"| funcName=`.Q.gc| resType=-7h| resCnt=1| tsId=2015.02.09D19:47:34.898557000
+INFO  2015.02.09 19:47:34.900 sub   - | status=`EVENT_STARTED| descr="sub[x;y] callback"| funcName=`sub| arg=(`core.tick;((`quote;+`time`sym`bid`bidSize`ask`askSize!(`time$();`g#`symbol$..| defVal=`| tsId=2015.02.09D19:47:34.899453000
+INFO  2015.02.09 19:47:34.900 sub   - | status=`EVENT_COMPLETED| descr="sub[x;y] callback"| funcName=`sub| resType=11h| resCnt=2| tsId=2015.02.09D19:47:34.900203000
+INFO  2015.02.09 19:47:34.901 sub   - | status=`EVENT_STARTED| descr="replaying the data from core.tick"| funcName=`.sub.tickHF.replayData| arg=(2;`:/Users/himanshugupta/DemoSystem/data/core.tick//core.tick2015.02.09)| defVal=`| tsId=2015.02.09D19:47:34.901159000
+INFO  2015.02.09 19:47:34.901 sub   - Replaying 2 messages from: :/Users/himanshugupta/DemoSystem/data/core.tick//core.tick2015.02.09
+INFO  2015.02.09 19:47:34.902 sub   - | status=`EVENT_COMPLETED| descr="replaying the data from core.tick"| funcName=`.sub.tickHF.replayData| resType=101h| resCnt=1| tsId=2015.02.09D19:47:34.901431000
+INFO  2015.02.09 19:47:34.903 sub   - | status=`EVENT_COMPLETED| descr="Auto initialization of connection to subscription sources basing on dataflow..| funcName=`.sub.hopenSrc| resType=101h| resCnt=1| tsId=2015.02.09D19:47:34.895260000
+INFO  2015.02.09 19:47:34.903 rdb   - component rdb initialized with 0 fatals, 0 errors, 0 warnings

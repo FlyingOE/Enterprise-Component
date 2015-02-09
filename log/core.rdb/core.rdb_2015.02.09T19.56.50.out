@@ -1,0 +1,6 @@
+Welcome to kdb+ 32bit edition
+For support please see http://groups.google.com/d/forum/personal-kdbplus
+Tutorials can be found at http://code.kx.com/wiki/Tutorials
+To exit, type \\
+To remove this startup msg, edit q.q
+Logging to file: /Users/himanshugupta/DemoSystem/Enterprise-Component/log/core.rdb/core.rdb.2015.02.09T19.56.50.log

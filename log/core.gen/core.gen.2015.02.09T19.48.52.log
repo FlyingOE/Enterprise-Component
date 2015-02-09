@@ -1,0 +1,54 @@
+INFO  2015.02.09 19:48:52.825 sl    - KDB+ ver: 3.2 rel: 2014.12.05 OS: m32 PID: 27495
+INFO  2015.02.09 19:48:52.825 sl    - no license found
+INFO  2015.02.09 19:48:52.825 sl    - user: himanshugupta host: himanshus-macbook-pro.local port: 18009
+INFO  2015.02.09 19:48:52.825 sl    - dir: /Users/himanshugupta/DemoSystem/bin/ec/components/mock file: gen.q
+INFO  2015.02.09 19:48:52.825 sl    - no command line parameters
+INFO  2015.02.09 19:48:52.825 sl    - GMT: 2015.02.09T19:48:52.825 loc. time: 2015.02.09T14:48:52.825
+INFO  2015.02.09 19:48:52.825 sl    - QHOME: /Users/himanshugupta/DemoSystem/bin/q/
+INFO  2015.02.09 19:48:52.825 sl    - Loading qsl/event.q library...
+INFO  2015.02.09 19:48:52.826 sl    - /Users/himanshugupta/DemoSystem/bin/ec/libraries/qsl/event.q loaded
+INFO  2015.02.09 19:48:52.826 sl    - Loading qsl/handle.q library...
+INFO  2015.02.09 19:48:52.827 sl    -   Loading qsl/callback.q library...
+INFO  2015.02.09 19:48:52.827 sl    -   /Users/himanshugupta/DemoSystem/bin/ec/libraries/qsl/callback.q loaded
+INFO  2015.02.09 19:48:52.827 sl    -   qsl/timer.q library already loaded
+INFO  2015.02.09 19:48:52.829 sl    - /Users/himanshugupta/DemoSystem/bin/ec/libraries/qsl/handle.q loaded
+INFO  2015.02.09 19:48:52.829 sl    - Loading qsl/authorization.q library...
+INFO  2015.02.09 19:48:52.832 sl    - /Users/himanshugupta/DemoSystem/bin/ec/libraries/qsl/authorization.q loaded
+INFO  2015.02.09 19:48:52.832 sl    - Loading qsl/sub.q library...
+INFO  2015.02.09 19:48:52.832 sl    -   Loading qsl/sub_tickHF.q library...
+INFO  2015.02.09 19:48:52.833 sl    -   /Users/himanshugupta/DemoSystem/bin/ec/libraries/qsl/sub_tickHF.q loaded
+INFO  2015.02.09 19:48:52.833 sl    -   Loading qsl/sub_tickLF.q library...
+INFO  2015.02.09 19:48:52.833 sl    -   /Users/himanshugupta/DemoSystem/bin/ec/libraries/qsl/sub_tickLF.q loaded
+INFO  2015.02.09 19:48:52.833 sl    -   Loading qsl/sub_dist.q library...
+INFO  2015.02.09 19:48:52.834 sl    -   /Users/himanshugupta/DemoSystem/bin/ec/libraries/qsl/sub_dist.q loaded
+INFO  2015.02.09 19:48:52.834 sl    - /Users/himanshugupta/DemoSystem/bin/ec/libraries/qsl/sub.q loaded
+INFO  2015.02.09 19:48:52.834 sl    - qsl/handle.q library already loaded
+INFO  2015.02.09 19:48:52.834 sl    - Loading cfgRdr/cfgRdr.q library...
+INFO  2015.02.09 19:48:52.839 sl    -   Loading qsl/parseq.q library...
+INFO  2015.02.09 19:48:52.842 sl    -   /Users/himanshugupta/DemoSystem/bin/ec/libraries/qsl/parseq.q loaded
+INFO  2015.02.09 19:48:52.853 sl    - /Users/himanshugupta/DemoSystem/bin/ec/libraries/cfgRdr/cfgRdr.q loaded
+INFO  2015.02.09 19:48:52.854 cr    - Parsing qsd files
+INFO  2015.02.09 19:48:52.886 cr    - Parsing cfg files
+INFO  2015.02.09 19:48:52.976 gen   - | status=`EVENT_STARTED| descr="initializing gen component"| funcName=`.sl.main| arg=`| defVal=`| tsId=2015.02.09D19:48:52.975935000
+INFO  2015.02.09 19:48:53.097 gen   - using tickHF protocol, see .gen.tickHF namespace
+INFO  2015.02.09 19:48:53.097 tmr   - starting timer for function quote period 1000 id quote
+INFO  2015.02.09 19:48:53.097 tmr   - timer frequency increased by a factor of 10
+INFO  2015.02.09 19:48:53.097 tmr   - added callback, system timer 1000 ms 
+INFO  2015.02.09 19:48:53.097 tmr   - starting timer for function trade period 5000 id trade
+INFO  2015.02.09 19:48:53.097 tmr   - added callback, system timer 1000 ms 
+INFO  2015.02.09 19:48:53.097 tmr   - scheduling .gen.tickHF.pubEod to run at 00:00:00.000
+INFO  2015.02.09 19:48:53.097 tmr   - starting timer for function .tmr.p.runAtFunpubEodTrigger period 10000 id pubEodTrigger
+INFO  2015.02.09 19:48:53.098 tmr   - added callback, system timer 1000 ms 
+INFO  2015.02.09 19:48:53.098 gen   - | status=`EVENT_COMPLETED| descr="initializing gen component"| funcName=`.sl.main| resType=101h| resCnt=1| tsId=2015.02.09D19:48:52.976079000
+INFO  2015.02.09 19:48:53.110 cb    - Plugin .auth.p.pc for callback .z.pc will be always called as first one.
+INFO  2015.02.09 19:48:53.110 cb    - Plugin .auth.p.po for callback .z.po will be always called as first one.
+INFO  2015.02.09 19:48:53.110 auth  - uOpt in system.cfg is turned off, access for all users is granted. Audit view will be enabled only for users defined in access.cfg
+INFO  2015.02.09 19:48:53.112 sub   - | status=`EVENT_COMPLETED| descr="Reading subscription configuration for dist server"| funcName=`.sub.readCfg| resType=101h| resCnt=1| tsId=2015.02.09D19:48:53.110664000
+INFO  2015.02.09 19:48:53.113 sub   - | status=`EVENT_COMPLETED| descr="Auto initialization of subscription basing on dataflow configuration"| funcName=`.sub.init| resType=0h| resCnt=0| tsId=2015.02.09D19:48:53.112620000
+INFO  2015.02.09 19:48:53.114 sub   - | status=`EVENT_COMPLETED| descr="Auto initialization of connection to subscription sources basing on dataflow..| funcName=`.sub.hopenSrc| resType=0h| resCnt=0| tsId=2015.02.09D19:48:53.113522000
+INFO  2015.02.09 19:48:53.114 gen   - component gen initialized with 0 fatals, 0 errors, 0 warnings
+WARN  2015.02.09 19:56:49.729 handle- Server core.tick with handle: 10 has been disconnected
+INFO  2015.02.09 19:56:49.730 tmr   - starting timer for function .hnd.rec.core_tick period 1000 id .hnd.rec.core_tick
+INFO  2015.02.09 19:56:49.730 tmr   - added callback, system timer 1000 ms 
+INFO  2015.02.09 19:56:49.730 tmr   - timer id: quote stopped
+INFO  2015.02.09 19:56:49.730 tmr   - timer id: trade stopped
