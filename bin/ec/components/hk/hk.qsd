@@ -1,5 +1,0 @@
-
-[group]
-  #/C/ time when housekeeping should be performed every day
-  cfg.startAt = <type(TIME), default(NULL)>
-

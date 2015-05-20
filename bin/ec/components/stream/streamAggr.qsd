@@ -1,4 +1,0 @@
-[group]
-[table]
-  #/C/ table name for published aggregated rows
-  outputTab = <type(SYMBOL), default()>
