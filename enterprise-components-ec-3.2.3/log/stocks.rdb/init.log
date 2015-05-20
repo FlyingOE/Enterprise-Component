@@ -1,0 +1,70 @@
+INFO  2015.05.12 20:42:36.922 sl    - KDB+ ver: 3.2 rel: 2014.11.26 OS: l32 PID: 13752
+INFO  2015.05.12 20:42:36.922 sl    - no license found
+INFO  2015.05.12 20:42:36.922 sl    - user: guptah host: vt0dmkdl01 port: 17003
+INFO  2015.05.12 20:42:36.922 sl    - dir: /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/components/rdb file: rdb.q
+INFO  2015.05.12 20:42:36.922 sl    - no command line parameters
+INFO  2015.05.12 20:42:36.922 sl    - GMT: 2015.05.12T20:42:36.922 loc. time: 2015.05.12T16:42:36.922
+INFO  2015.05.12 20:42:36.922 sl    - QHOME: /home/guptah/EC/enterprise-components-ec-3.2.3/bin/q
+INFO  2015.05.12 20:42:36.922 sl    - Loading qsl/event.q library...
+INFO  2015.05.12 20:42:36.923 sl    - /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/event.q loaded
+INFO  2015.05.12 20:42:36.923 sl    - Loading qsl/handle.q library...
+INFO  2015.05.12 20:42:36.923 sl    -   Loading qsl/callback.q library...
+INFO  2015.05.12 20:42:36.923 sl    -   /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/callback.q loaded
+INFO  2015.05.12 20:42:36.923 sl    -   qsl/timer.q library already loaded
+INFO  2015.05.12 20:42:36.925 sl    - /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/handle.q loaded
+INFO  2015.05.12 20:42:36.925 sl    - Loading qsl/authorization.q library...
+INFO  2015.05.12 20:42:36.926 sl    - /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/authorization.q loaded
+INFO  2015.05.12 20:42:36.926 sl    - Loading qsl/sub.q library...
+INFO  2015.05.12 20:42:36.926 sl    -   Loading qsl/sub_tickHF.q library...
+INFO  2015.05.12 20:42:36.927 sl    -   /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/sub_tickHF.q loaded
+INFO  2015.05.12 20:42:36.927 sl    -   Loading qsl/sub_tickLF.q library...
+INFO  2015.05.12 20:42:36.927 sl    -   /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/sub_tickLF.q loaded
+INFO  2015.05.12 20:42:36.927 sl    -   Loading qsl/sub_dist.q library...
+INFO  2015.05.12 20:42:36.928 sl    -   /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/sub_dist.q loaded
+INFO  2015.05.12 20:42:36.928 sl    - /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/sub.q loaded
+INFO  2015.05.12 20:42:36.928 sl    - Loading cfgRdr/cfgRdr.q library...
+INFO  2015.05.12 20:42:36.940 sl    -   Loading qsl/parseq.q library...
+INFO  2015.05.12 20:42:36.950 sl    -   /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/parseq.q loaded
+INFO  2015.05.12 20:42:36.977 sl    - /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/cfgRdr/cfgRdr.q loaded
+INFO  2015.05.12 20:42:36.977 sl    - qsl/handle.q library already loaded
+INFO  2015.05.12 20:42:36.977 sl    - qsl/sub.q library already loaded
+INFO  2015.05.12 20:42:36.977 sl    - Loading qsl/store.q library...
+INFO  2015.05.12 20:42:36.977 sl    - /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/store.q loaded
+INFO  2015.05.12 20:42:36.978 cr    - Parsing qsd files
+INFO  2015.05.12 20:42:37.077 cr    - Parsing cfg files
+INFO  2015.05.12 20:42:37.342 rdb   - | status=`EVENT_STARTED| descr="initializing rdb component"| funcName=`.sl.main| arg=`| defVal=`| tsId=2015.05.12D20:42:37.342565000
+INFO  2015.05.12 20:42:37.367 store - store initialization completed
+INFO  2015.05.12 20:42:37.633 rdb   - | status=`EVENT_COMPLETED| descr="initializing rdb component"| funcName=`.sl.main| resType=101h| resCnt=1| tsId=2015.05.12D20:42:37.342661000
+INFO  2015.05.12 20:42:37.644 cb    - Plugin .auth.p.pc for callback .z.pc will be always called as first one.
+INFO  2015.05.12 20:42:37.644 cb    - Plugin .auth.p.po for callback .z.po will be always called as first one.
+INFO  2015.05.12 20:42:37.644 auth  - uOpt in system.cfg is turned off, access for all users is granted. Audit view will be enabled only for users defined in access.cfg
+INFO  2015.05.12 20:42:37.645 sub   - | status=`EVENT_COMPLETED| descr="Reading subscription configuration for dist server"| funcName=`.sub.readCfg| resType=101h| resCnt=1| tsId=2015.05.12D20:42:37.644813000
+INFO  2015.05.12 20:42:37.645 sub   - | status=`EVENT_COMPLETED| descr="Auto initialization of subscription basing on dataflow configuration"| funcName=`.sub.init| resType=101h| resCnt=1| tsId=2015.05.12D20:42:37.645534000
+INFO  2015.05.12 20:42:37.652 sub   - Initializing PROTOCOL_TICKHFcallbacks for :`sub`upd`jUpd
+INFO  2015.05.12 20:42:37.653 sub   - | status=`EVENT_STARTED| descr="garbage collection"| funcName=`.Q.gc| arg=()| defVal=`| tsId=2015.05.12D20:42:37.653018000
+INFO  2015.05.12 20:42:37.653 sub   - | status=`EVENT_COMPLETED| descr="garbage collection"| funcName=`.Q.gc| resType=-7h| resCnt=1| tsId=2015.05.12D20:42:37.653099000
+INFO  2015.05.12 20:42:37.653 sub   - | status=`EVENT_STARTED| descr="sub[x;y] callback"| funcName=`sub| arg=(`stocks.tick;((`quote;+`time`sym`bid`bidSize`ask`askSize!(`time$();`g#`symbo..| defVal=`| tsId=2015.05.12D20:42:37.653411000
+INFO  2015.05.12 20:42:37.653 sub   - | status=`EVENT_COMPLETED| descr="sub[x;y] callback"| funcName=`sub| resType=11h| resCnt=2| tsId=2015.05.12D20:42:37.653684000
+INFO  2015.05.12 20:42:37.654 sub   - | status=`EVENT_STARTED| descr="replaying the data from stocks.tick"| funcName=`.sub.tickHF.replayData| arg=(524;`:/home/guptah/EC/enterprise-components-ec-3.2.3/data/stocks.tick//stock..| defVal=`| tsId=2015.05.12D20:42:37.653931000
+INFO  2015.05.12 20:42:37.654 sub   - Replaying 524 messages from: :/home/guptah/EC/enterprise-components-ec-3.2.3/data/stocks.tick//stocks.tick2015.05.12
+INFO  2015.05.12 20:42:37.656 sub   - | status=`EVENT_COMPLETED| descr="replaying the data from stocks.tick"| funcName=`.sub.tickHF.replayData| resType=101h| resCnt=1| tsId=2015.05.12D20:42:37.654033000
+INFO  2015.05.12 20:42:37.656 sub   - | status=`EVENT_COMPLETED| descr="Auto initialization of connection to subscription sources basing on dataflow..| funcName=`.sub.hopenSrc| resType=101h| resCnt=1| tsId=2015.05.12D20:42:37.645856000
+INFO  2015.05.12 20:42:37.656 rdb   - component rdb initialized with 0 fatals, 0 errors, 0 warnings
+INFO  2015.05.13 00:00:00.163 store - [Start] Store data for date 2015.05.12
+INFO  2015.05.13 00:00:00.163 store - Perform storing and clearing tables: `quote`trade
+INFO  2015.05.13 00:00:00.164 store - | status=`EVENT_STARTED| descr="splaying table quote in hdb :/home/guptah/EC/enterprise-components-ec-3.2.3/..| funcName=`.store.p.splay| arg=(2015.05.12;`quote;`:/home/guptah/EC/enterprise-components-ec-3.2.3/data/stoc..| defVal=`error| tsId=2015.05.13D00:00:00.163830000
+INFO  2015.05.13 00:00:00.164 store - Storing table: quote, attrCol:`sym #count:26300
+INFO  2015.05.13 00:00:00.170 store - | status=`EVENT_COMPLETED| descr="splaying table quote in hdb :/home/guptah/EC/enterprise-components-ec-3.2.3/..| funcName=`.store.p.splay| resType=101h| resCnt=1| tsId=2015.05.13D00:00:00.164025000
+INFO  2015.05.13 00:00:00.171 store - | status=`EVENT_STARTED| descr="clear table quote"| funcName=`.store.p.clear| arg=`quote`sym| defVal=`error| tsId=2015.05.13D00:00:00.171050000
+INFO  2015.05.13 00:00:00.171 store - | status=`EVENT_COMPLETED| descr="clear table quote"| funcName=`.store.p.clear| resType=101h| resCnt=1| tsId=2015.05.13D00:00:00.171131000
+INFO  2015.05.13 00:00:00.171 store - | status=`EVENT_STARTED| descr="splaying table trade in hdb :/home/guptah/EC/enterprise-components-ec-3.2.3/..| funcName=`.store.p.splay| arg=(2015.05.12;`trade;`:/home/guptah/EC/enterprise-components-ec-3.2.3/data/stoc..| defVal=`error| tsId=2015.05.13D00:00:00.171501000
+INFO  2015.05.13 00:00:00.171 store - Storing table: trade, attrCol:`sym #count:26300
+INFO  2015.05.13 00:00:00.174 store - | status=`EVENT_COMPLETED| descr="splaying table trade in hdb :/home/guptah/EC/enterprise-components-ec-3.2.3/..| funcName=`.store.p.splay| resType=101h| resCnt=1| tsId=2015.05.13D00:00:00.171673000
+INFO  2015.05.13 00:00:00.175 store - | status=`EVENT_STARTED| descr="clear table trade"| funcName=`.store.p.clear| arg=`trade`sym| defVal=`error| tsId=2015.05.13D00:00:00.175061000
+INFO  2015.05.13 00:00:00.175 store - | status=`EVENT_COMPLETED| descr="clear table trade"| funcName=`.store.p.clear| resType=101h| resCnt=1| tsId=2015.05.13D00:00:00.175142000
+INFO  2015.05.13 00:00:00.175 store - | status=`EVENT_STARTED| descr="Fill missing tabs in hdb: :/home/guptah/EC/enterprise-components-ec-3.2.3/da..| funcName=`.store.fillMissingTabs| arg=`:/home/guptah/EC/enterprise-components-ec-3.2.3/data/stocks.hdb| defVal=`error| tsId=2015.05.13D00:00:00.175467000
+INFO  2015.05.13 00:00:00.176 store - | status=`EVENT_COMPLETED| descr="Fill missing tabs in hdb: :/home/guptah/EC/enterprise-components-ec-3.2.3/da..| funcName=`.store.fillMissingTabs| resType=101h| resCnt=1| tsId=2015.05.13D00:00:00.175598000
+INFO  2015.05.13 00:00:00.176 store - | status=`EVENT_STARTED| descr="Reload hdb: stocks.hdb"| funcName=`.store.reloadHdb| arg=`stocks.hdb| defVal=`error| tsId=2015.05.13D00:00:00.176314000
+INFO  2015.05.13 00:00:00.176 store - | status=`EVENT_COMPLETED| descr="Reload hdb: stocks.hdb"| funcName=`.store.reloadHdb| resType=101h| resCnt=1| tsId=2015.05.13D00:00:00.176412000
+INFO  2015.05.13 00:00:00.176 store - [Storing data completed]
+INFO  2015.05.13 01:00:07.657 sl    -  log continues in /home/guptah/EC/enterprise-components-ec-3.2.3/log/stocks.rdb/stocks.rdb.2015.05.13T01.00.07.log

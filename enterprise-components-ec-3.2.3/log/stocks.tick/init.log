@@ -1,0 +1,57 @@
+INFO  2015.05.12 20:42:36.788 sl    - KDB+ ver: 3.2 rel: 2014.11.26 OS: l32 PID: 13746
+INFO  2015.05.12 20:42:36.788 sl    - no license found
+INFO  2015.05.12 20:42:36.788 sl    - user: guptah host: vt0dmkdl01 port: 17002
+INFO  2015.05.12 20:42:36.788 sl    - dir: /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/components/tickHF file: tickHF.q
+INFO  2015.05.12 20:42:36.788 sl    - no command line parameters
+INFO  2015.05.12 20:42:36.788 sl    - GMT: 2015.05.12T20:42:36.788 loc. time: 2015.05.12T16:42:36.788
+INFO  2015.05.12 20:42:36.788 sl    - QHOME: /home/guptah/EC/enterprise-components-ec-3.2.3/bin/q
+INFO  2015.05.12 20:42:36.788 sl    - Loading qsl/event.q library...
+INFO  2015.05.12 20:42:36.789 sl    - /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/event.q loaded
+INFO  2015.05.12 20:42:36.789 sl    - Loading qsl/handle.q library...
+INFO  2015.05.12 20:42:36.789 sl    -   Loading qsl/callback.q library...
+INFO  2015.05.12 20:42:36.789 sl    -   /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/callback.q loaded
+INFO  2015.05.12 20:42:36.789 sl    -   qsl/timer.q library already loaded
+INFO  2015.05.12 20:42:36.791 sl    - /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/handle.q loaded
+INFO  2015.05.12 20:42:36.791 sl    - Loading qsl/authorization.q library...
+INFO  2015.05.12 20:42:36.792 sl    - /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/authorization.q loaded
+INFO  2015.05.12 20:42:36.792 sl    - Loading qsl/sub.q library...
+INFO  2015.05.12 20:42:36.792 sl    -   Loading qsl/sub_tickHF.q library...
+INFO  2015.05.12 20:42:36.793 sl    -   /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/sub_tickHF.q loaded
+INFO  2015.05.12 20:42:36.793 sl    -   Loading qsl/sub_tickLF.q library...
+INFO  2015.05.12 20:42:36.793 sl    -   /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/sub_tickLF.q loaded
+INFO  2015.05.12 20:42:36.793 sl    -   Loading qsl/sub_dist.q library...
+INFO  2015.05.12 20:42:36.793 sl    -   /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/sub_dist.q loaded
+INFO  2015.05.12 20:42:36.794 sl    - /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/sub.q loaded
+INFO  2015.05.12 20:42:36.794 sl    - Loading qsl/u.q library...
+INFO  2015.05.12 20:42:36.794 sl    - /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/u.q loaded
+INFO  2015.05.12 20:42:36.794 sl    - qsl/timer.q library already loaded
+INFO  2015.05.12 20:42:36.794 sl    - Loading cfgRdr/cfgRdr.q library...
+INFO  2015.05.12 20:42:36.798 sl    -   Loading qsl/parseq.q library...
+INFO  2015.05.12 20:42:36.806 sl    -   /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/parseq.q loaded
+INFO  2015.05.12 20:42:36.820 sl    - /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/cfgRdr/cfgRdr.q loaded
+INFO  2015.05.12 20:42:36.821 cr    - Parsing qsd files
+INFO  2015.05.12 20:42:36.882 cr    - Parsing cfg files
+INFO  2015.05.12 20:42:37.110 tickHF- | status=`EVENT_STARTED| descr="initializing tickHF component"| funcName=`.sl.main| arg=`| defVal=`| tsId=2015.05.12D20:42:37.110776000
+INFO  2015.05.12 20:42:37.128 tickHF- Initialized tickHF in zero-latency mode. Internal timer will be set to 1000 ms
+INFO  2015.05.12 20:42:37.128 tmr   - starting timer for function .tickHF.ts period 1000 id .tickHF.ts
+INFO  2015.05.12 20:42:37.128 tmr   - timer frequency increased by a factor of 10
+INFO  2015.05.12 20:42:37.128 tmr   - added callback, system timer 1000 ms 
+INFO  2015.05.12 20:42:37.129 tickHF- Initializing tickHF process for active day 2015.05.12
+INFO  2015.05.12 20:42:37.130 tickHF- Loading journal file:`:/home/guptah/EC/enterprise-components-ec-3.2.3/data/stocks.tick//stocks.tick2015.05.12, handle:6, entries:522
+INFO  2015.05.12 20:42:37.130 tickHF- | status=`EVENT_COMPLETED| descr="initializing tickHF component"| funcName=`.sl.main| resType=101h| resCnt=1| tsId=2015.05.12D20:42:37.110874000
+INFO  2015.05.12 20:42:37.156 cb    - Plugin .auth.p.pc for callback .z.pc will be always called as first one.
+INFO  2015.05.12 20:42:37.156 cb    - Plugin .auth.p.po for callback .z.po will be always called as first one.
+INFO  2015.05.12 20:42:37.156 auth  - uOpt in system.cfg is turned off, access for all users is granted. Audit view will be enabled only for users defined in access.cfg
+INFO  2015.05.12 20:42:37.157 sub   - | status=`EVENT_COMPLETED| descr="Reading subscription configuration for dist server"| funcName=`.sub.readCfg| resType=101h| resCnt=1| tsId=2015.05.12D20:42:37.156651000
+INFO  2015.05.12 20:42:37.160 sub   - | status=`EVENT_COMPLETED| descr="Auto initialization of subscription basing on dataflow configuration"| funcName=`.sub.init| resType=0h| resCnt=0| tsId=2015.05.12D20:42:37.157368000
+INFO  2015.05.12 20:42:37.161 sub   - | status=`EVENT_COMPLETED| descr="Auto initialization of connection to subscription sources basing on dataflow..| funcName=`.sub.hopenSrc| resType=0h| resCnt=0| tsId=2015.05.12D20:42:37.160979000
+INFO  2015.05.12 20:42:37.161 tickHF- component tickHF initialized with 0 fatals, 0 errors, 0 warnings
+INFO  2015.05.12 20:42:37.240 u     - Subscription request on h:8i. Table:`quote. Sym:`
+INFO  2015.05.12 20:42:37.240 u     - Subscription request on h:8i. Table:`trade. Sym:`
+INFO  2015.05.12 20:42:37.652 u     - Subscription request on h:9i. Table:`quote. Sym:`
+INFO  2015.05.12 20:42:37.652 u     - Subscription request on h:9i. Table:`trade. Sym:`
+INFO  2015.05.12 20:42:37.713 u     - Subscription request on h:10i. Table:`quote. Sym:`
+INFO  2015.05.12 20:42:37.713 u     - Subscription request on h:10i. Table:`trade. Sym:`
+INFO  2015.05.13 00:00:00.162 u     - Broadcasting EOD to subscribers.
+INFO  2015.05.13 00:00:00.162 tickHF- Loading journal file:`:/home/guptah/EC/enterprise-components-ec-3.2.3/data/stocks.tick//stocks.tick2015.05.13, handle:6, entries:0
+INFO  2015.05.13 01:00:09.162 sl    -  log continues in /home/guptah/EC/enterprise-components-ec-3.2.3/log/stocks.tick/stocks.tick.2015.05.13T01.00.09.log

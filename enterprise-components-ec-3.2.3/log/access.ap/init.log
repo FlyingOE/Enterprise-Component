@@ -1,0 +1,51 @@
+INFO  2015.05.12 20:20:03.019 sl    - KDB+ ver: 3.2 rel: 2014.11.26 OS: l32 PID: 13643
+INFO  2015.05.12 20:20:03.019 sl    - no license found
+INFO  2015.05.12 20:20:03.019 sl    - user: guptah host: vt0dmkdl01 port: 17050
+INFO  2015.05.12 20:20:03.019 sl    - dir: /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/components/accessPoint file: accessPoint.q
+INFO  2015.05.12 20:20:03.019 sl    - args: -libs queries.q
+INFO  2015.05.12 20:20:03.019 sl    - GMT: 2015.05.12T20:20:03.019 loc. time: 2015.05.12T16:20:03.019
+INFO  2015.05.12 20:20:03.019 sl    - QHOME: /home/guptah/EC/enterprise-components-ec-3.2.3/bin/q
+INFO  2015.05.12 20:20:03.019 sl    - Loading qsl/event.q library...
+INFO  2015.05.12 20:20:03.020 sl    - /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/event.q loaded
+INFO  2015.05.12 20:20:03.020 sl    - Loading qsl/handle.q library...
+INFO  2015.05.12 20:20:03.020 sl    -   Loading qsl/callback.q library...
+INFO  2015.05.12 20:20:03.021 sl    -   /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/callback.q loaded
+INFO  2015.05.12 20:20:03.021 sl    -   qsl/timer.q library already loaded
+INFO  2015.05.12 20:20:03.022 sl    - /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/handle.q loaded
+INFO  2015.05.12 20:20:03.022 sl    - Loading qsl/authorization.q library...
+INFO  2015.05.12 20:20:03.023 sl    - /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/authorization.q loaded
+INFO  2015.05.12 20:20:03.023 sl    - Loading qsl/sub.q library...
+INFO  2015.05.12 20:20:03.024 sl    -   Loading qsl/sub_tickHF.q library...
+INFO  2015.05.12 20:20:03.024 sl    -   /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/sub_tickHF.q loaded
+INFO  2015.05.12 20:20:03.024 sl    -   Loading qsl/sub_tickLF.q library...
+INFO  2015.05.12 20:20:03.024 sl    -   /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/sub_tickLF.q loaded
+INFO  2015.05.12 20:20:03.024 sl    -   Loading qsl/sub_dist.q library...
+INFO  2015.05.12 20:20:03.025 sl    -   /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/sub_dist.q loaded
+INFO  2015.05.12 20:20:03.025 sl    - /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/sub.q loaded
+INFO  2015.05.12 20:20:03.025 sl    - Loading cfgRdr/cfgRdr.q library...
+INFO  2015.05.12 20:20:03.029 sl    -   Loading qsl/parseq.q library...
+INFO  2015.05.12 20:20:03.031 sl    -   /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/parseq.q loaded
+INFO  2015.05.12 20:20:03.039 sl    - /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/cfgRdr/cfgRdr.q loaded
+INFO  2015.05.12 20:20:03.039 cr    - Parsing qsd files
+INFO  2015.05.12 20:20:03.062 cr    - Parsing cfg files
+INFO  2015.05.12 20:20:03.123 ap    - | status=`EVENT_STARTED| descr="initializing ap component"| funcName=`.sl.main| arg=`| defVal=`| tsId=2015.05.12D20:20:03.123476000
+INFO  2015.05.12 20:20:03.249 sl    - Loading queries.q library...
+INFO  2015.05.12 20:20:03.249 sl    -   Loading qsl/query.q library...
+INFO  2015.05.12 20:20:03.249 sl    -   /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/query.q loaded
+INFO  2015.05.12 20:20:03.250 sl    - /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/queries.q loaded
+INFO  2015.05.12 20:20:03.255 cb    - Plugin .auth.p.pc for callback .z.pc will be always called as first one.
+INFO  2015.05.12 20:20:03.255 cb    - Plugin .auth.p.po for callback .z.po will be always called as first one.
+INFO  2015.05.12 20:20:03.255 auth  - uOpt in system.cfg is turned off, access for all users is granted. Audit view will be enabled only for users defined in access.cfg
+INFO  2015.05.12 20:20:03.255 ap    - Users `tu``guptah added.
+INFO  2015.05.12 20:20:03.255 ap    - | status=`EVENT_COMPLETED| descr="initializing ap component"| funcName=`.sl.main| resType=101h| resCnt=1| tsId=2015.05.12D20:20:03.123569000
+INFO  2015.05.12 20:20:03.256 sub   - | status=`EVENT_COMPLETED| descr="Reading subscription configuration for dist server"| funcName=`.sub.readCfg| resType=101h| resCnt=1| tsId=2015.05.12D20:20:03.256194000
+INFO  2015.05.12 20:20:03.257 sub   - | status=`EVENT_COMPLETED| descr="Auto initialization of subscription basing on dataflow configuration"| funcName=`.sub.init| resType=0h| resCnt=0| tsId=2015.05.12D20:20:03.256823000
+INFO  2015.05.12 20:20:03.257 sub   - | status=`EVENT_COMPLETED| descr="Auto initialization of connection to subscription sources basing on dataflow..| funcName=`.sub.hopenSrc| resType=0h| resCnt=0| tsId=2015.05.12D20:20:03.257139000
+INFO  2015.05.12 20:20:03.257 ap    - component ap initialized with 0 fatals, 0 errors, 0 warnings
+WARN  2015.05.12 20:36:10.640 handle- Server stocks.rdb with handle: 7 has been disconnected
+INFO  2015.05.12 20:36:10.641 tmr   - starting timer for function .hnd.rec.stocks_rdb period 1000 id .hnd.rec.stocks_rdb
+INFO  2015.05.12 20:36:10.641 tmr   - timer frequency increased by a factor of 10
+INFO  2015.05.12 20:36:10.641 tmr   - added callback, system timer 1000 ms 
+INFO  2015.05.12 20:42:37.657 tmr   - timer id: .hnd.rec.stocks_rdb stopped
+INFO  2015.05.12 20:42:42.642 tmr   - system timer period reset to 10000
+INFO  2015.05.13 01:00:02.652 sl    -  log continues in /home/guptah/EC/enterprise-components-ec-3.2.3/log/access.ap/access.ap.2015.05.13T01.00.02.log

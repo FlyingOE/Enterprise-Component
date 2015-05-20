@@ -1,0 +1,4 @@
+INFO  2015.05.14 01:00:09.162 sl    -  log continued from /home/guptah/EC/enterprise-components-ec-3.2.3/log/stocks.tick/stocks.tick.2015.05.13T01.00.09.log
+INFO  2015.05.14 14:05:38.678 u     - Removing subscription on h:8i
+INFO  2015.05.14 14:05:38.788 u     - Removing subscription on h:10i
+INFO  2015.05.14 14:05:39.024 u     - Removing subscription on h:9i

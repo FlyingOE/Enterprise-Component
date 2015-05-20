@@ -1,0 +1,78 @@
+INFO  2015.05.12 20:42:37.184 sl    - KDB+ ver: 3.2 rel: 2014.11.26 OS: l32 PID: 13764
+INFO  2015.05.12 20:42:37.184 sl    - no license found
+INFO  2015.05.12 20:42:37.184 sl    - user: guptah host: vt0dmkdl01 port: 17005
+INFO  2015.05.12 20:42:37.184 sl    - dir: /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/components/stream file: stream.q
+INFO  2015.05.12 20:42:37.184 sl    - args: -libs streamAggr
+INFO  2015.05.12 20:42:37.184 sl    - GMT: 2015.05.12T20:42:37.184 loc. time: 2015.05.12T16:42:37.184
+INFO  2015.05.12 20:42:37.184 sl    - QHOME: /home/guptah/EC/enterprise-components-ec-3.2.3/bin/q
+INFO  2015.05.12 20:42:37.185 sl    - Loading qsl/event.q library...
+INFO  2015.05.12 20:42:37.185 sl    - /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/event.q loaded
+INFO  2015.05.12 20:42:37.185 sl    - Loading qsl/handle.q library...
+INFO  2015.05.12 20:42:37.186 sl    -   Loading qsl/callback.q library...
+INFO  2015.05.12 20:42:37.186 sl    -   /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/callback.q loaded
+INFO  2015.05.12 20:42:37.186 sl    -   qsl/timer.q library already loaded
+INFO  2015.05.12 20:42:37.188 sl    - /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/handle.q loaded
+INFO  2015.05.12 20:42:37.188 sl    - Loading qsl/authorization.q library...
+INFO  2015.05.12 20:42:37.190 sl    - /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/authorization.q loaded
+INFO  2015.05.12 20:42:37.190 sl    - Loading qsl/sub.q library...
+INFO  2015.05.12 20:42:37.191 sl    -   Loading qsl/sub_tickHF.q library...
+INFO  2015.05.12 20:42:37.191 sl    -   /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/sub_tickHF.q loaded
+INFO  2015.05.12 20:42:37.191 sl    -   Loading qsl/sub_tickLF.q library...
+INFO  2015.05.12 20:42:37.191 sl    -   /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/sub_tickLF.q loaded
+INFO  2015.05.12 20:42:37.191 sl    -   Loading qsl/sub_dist.q library...
+INFO  2015.05.12 20:42:37.192 sl    -   /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/sub_dist.q loaded
+INFO  2015.05.12 20:42:37.197 sl    - /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/sub.q loaded
+INFO  2015.05.12 20:42:37.197 sl    - Loading cfgRdr/cfgRdr.q library...
+INFO  2015.05.12 20:42:37.208 sl    -   Loading qsl/parseq.q library...
+INFO  2015.05.12 20:42:37.217 sl    -   /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/parseq.q loaded
+INFO  2015.05.12 20:42:37.243 sl    - /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/cfgRdr/cfgRdr.q loaded
+INFO  2015.05.12 20:42:37.243 sl    - qsl/handle.q library already loaded
+INFO  2015.05.12 20:42:37.243 sl    - qsl/sub.q library already loaded
+INFO  2015.05.12 20:42:37.243 sl    - Loading qsl/u.q library...
+INFO  2015.05.12 20:42:37.243 sl    - /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/u.q loaded
+INFO  2015.05.12 20:42:37.252 cr    - Parsing qsd files
+INFO  2015.05.12 20:42:37.324 cr    - Parsing cfg files
+INFO  2015.05.12 20:42:37.505 stream- | status=`EVENT_STARTED| descr="initializing stream component"| funcName=`.sl.main| arg=`| defVal=`| tsId=2015.05.12D20:42:37.505358000
+INFO  2015.05.12 20:42:37.512 sl    - Loading streamAggr.q library...
+INFO  2015.05.12 20:42:37.513 stream-   Plugin definition mode:cache
+INFO  2015.05.12 20:42:37.513 sl    - /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/components/stream/streamAggr.q loaded
+INFO  2015.05.12 20:42:37.513 stream- | status=`EVENT_STARTED| descr="initializing connections"| funcName=`.stream.p.initConnections| arg=()| defVal=`| tsId=2015.05.12D20:42:37.513146000
+INFO  2015.05.12 20:42:37.513 stream- | status=`EVENT_COMPLETED| descr="initializing connections"| funcName=`.stream.p.initConnections| resType=101h| resCnt=1| tsId=2015.05.12D20:42:37.513228000
+INFO  2015.05.12 20:42:37.513 stream- | status=`EVENT_STARTED| descr=".stream.plug.init callback"| funcName=`.stream.p.initPlugin| arg=`| defVal=`| tsId=2015.05.12D20:42:37.513540000
+INFO  2015.05.12 20:42:37.514 stream- | status=`EVENT_COMPLETED| descr=".stream.plug.init callback"| funcName=`.stream.p.initPlugin| resType=101h| resCnt=1| tsId=2015.05.12D20:42:37.513629000
+INFO  2015.05.12 20:42:37.514 stream- | status=`EVENT_STARTED| descr="[initializing] or [opening and replaying] journal file"| funcName=`.stream.p.initJrn| arg=2015.05.12| defVal=`| tsId=2015.05.12D20:42:37.514218000
+INFO  2015.05.12 20:42:37.515 stream- | status=`EVENT_COMPLETED| descr="[initializing] or [opening and replaying] journal file"| funcName=`.stream.p.initJrn| resType=101h| resCnt=1| tsId=2015.05.12D20:42:37.514327000
+INFO  2015.05.12 20:42:37.515 stream- | status=`EVENT_STARTED| descr="opening connections"| funcName=`.stream.p.openConnections| arg=()| defVal=`| tsId=2015.05.12D20:42:37.515821000
+INFO  2015.05.12 20:42:37.713 sub   - | status=`EVENT_STARTED| descr="garbage collection"| funcName=`.Q.gc| arg=()| defVal=`| tsId=2015.05.12D20:42:37.713783000
+INFO  2015.05.12 20:42:37.714 sub   - | status=`EVENT_COMPLETED| descr="garbage collection"| funcName=`.Q.gc| resType=-7h| resCnt=1| tsId=2015.05.12D20:42:37.713871000
+INFO  2015.05.12 20:42:37.714 sub   - | status=`EVENT_STARTED| descr="sub[x;y] callback"| funcName=`sub| arg=(`stocks.tick;((`quote;+`time`sym`bid`bidSize`ask`askSize!(`time$();`g#`symbo..| defVal=`| tsId=2015.05.12D20:42:37.714160000
+INFO  2015.05.12 20:42:37.714 stream- Recovery using savepoint: First `quote`trade!2610 2610 messages will be skipped during the journal replay.
+INFO  2015.05.12 20:42:37.714 stream- | status=`EVENT_STARTED| descr=".stream.plug.sub callback"| funcName=`.stream.plug.sub| arg=(`stocks.tick;((`quote;+`time`sym`bid`bidSize`ask`askSize!(`time$();`g#`symbo..| defVal=`| tsId=2015.05.12D20:42:37.714667000
+INFO  2015.05.12 20:42:37.715 stream- | status=`EVENT_COMPLETED| descr=".stream.plug.sub callback"| funcName=`.stream.plug.sub| resType=101h| resCnt=1| tsId=2015.05.12D20:42:37.714948000
+INFO  2015.05.12 20:42:37.715 sub   - | status=`EVENT_COMPLETED| descr="sub[x;y] callback"| funcName=`sub| resType=101h| resCnt=1| tsId=2015.05.12D20:42:37.714450000
+INFO  2015.05.12 20:42:37.715 sub   - | status=`EVENT_STARTED| descr="replaying the data from stocks.tick"| funcName=`.sub.tickHF.replayData| arg=(524;`:/home/guptah/EC/enterprise-components-ec-3.2.3/data/stocks.tick//stock..| defVal=`| tsId=2015.05.12D20:42:37.715343000
+INFO  2015.05.12 20:42:37.715 sub   - Replaying 524 messages from: :/home/guptah/EC/enterprise-components-ec-3.2.3/data/stocks.tick//stocks.tick2015.05.12
+INFO  2015.05.12 20:42:37.718 sub   - | status=`EVENT_COMPLETED| descr="replaying the data from stocks.tick"| funcName=`.sub.tickHF.replayData| resType=101h| resCnt=1| tsId=2015.05.12D20:42:37.715464000
+INFO  2015.05.12 20:42:37.719 stream- | status=`EVENT_COMPLETED| descr="opening connections"| funcName=`.stream.p.openConnections| resType=101h| resCnt=1| tsId=2015.05.12D20:42:37.515905000
+INFO  2015.05.12 20:42:37.719 tmr   - starting timer for function .stream.plug.ts period 1000 id .stream.plug.ts
+INFO  2015.05.12 20:42:37.719 tmr   - timer frequency increased by a factor of 10
+INFO  2015.05.12 20:42:37.719 tmr   - added callback, system timer 1000 ms 
+INFO  2015.05.12 20:42:37.719 stream- | status=`EVENT_COMPLETED| descr="initializing stream component"| funcName=`.sl.main| resType=101h| resCnt=1| tsId=2015.05.12D20:42:37.505472000
+INFO  2015.05.12 20:42:37.724 cb    - Plugin .auth.p.pc for callback .z.pc will be always called as first one.
+INFO  2015.05.12 20:42:37.724 cb    - Plugin .auth.p.po for callback .z.po will be always called as first one.
+INFO  2015.05.12 20:42:37.724 auth  - uOpt in system.cfg is turned off, access for all users is granted. Audit view will be enabled only for users defined in access.cfg
+INFO  2015.05.12 20:42:37.725 sub   - | status=`EVENT_COMPLETED| descr="Reading subscription configuration for dist server"| funcName=`.sub.readCfg| resType=101h| resCnt=1| tsId=2015.05.12D20:42:37.725060000
+INFO  2015.05.12 20:42:37.725 sub   - | status=`EVENT_COMPLETED| descr="Auto initialization of subscription basing on dataflow configuration"| funcName=`.sub.init| resType=0h| resCnt=0| tsId=2015.05.12D20:42:37.725759000
+INFO  2015.05.12 20:42:37.726 sub   - | status=`EVENT_COMPLETED| descr="Auto initialization of connection to subscription sources basing on dataflow..| funcName=`.sub.hopenSrc| resType=0h| resCnt=0| tsId=2015.05.12D20:42:37.726034000
+INFO  2015.05.12 20:42:37.726 stream- component stream initialized with 0 fatals, 0 errors, 0 warnings
+INFO  2015.05.13 00:00:00.166 stream- end of day 2015.05.12
+INFO  2015.05.13 00:00:00.166 stream- | status=`EVENT_STARTED| descr="final .stream.plug.ts callback before eod"| funcName=`.stream.plug.ts| arg=2015.05.13D00:00:00.000000000| defVal=`| tsId=2015.05.13D00:00:00.166487000
+INFO  2015.05.13 00:00:00.166 stream- | status=`EVENT_COMPLETED| descr="final .stream.plug.ts callback before eod"| funcName=`.stream.plug.ts| resType=101h| resCnt=1| tsId=2015.05.13D00:00:00.166594000
+INFO  2015.05.13 00:00:00.167 stream- | status=`EVENT_STARTED| descr=".stream.plug.eod callback"| funcName=`.stream.plug.eod| arg=2015.05.12| defVal=`| tsId=2015.05.13D00:00:00.167018000
+INFO  2015.05.13 00:00:00.167 stream- | status=`EVENT_COMPLETED| descr=".stream.plug.eod callback"| funcName=`.stream.plug.eod| resType=101h| resCnt=1| tsId=2015.05.13D00:00:00.167104000
+INFO  2015.05.13 00:00:00.167 stream- | status=`EVENT_STARTED| descr="publish eod to subscribers"| funcName=`.u.endPublish| arg=2015.05.12| defVal=`| tsId=2015.05.13D00:00:00.167618000
+INFO  2015.05.13 00:00:00.167 u     - Broadcasting EOD to subscribers.
+INFO  2015.05.13 00:00:00.167 stream- | status=`EVENT_COMPLETED| descr="publish eod to subscribers"| funcName=`.u.endPublish| resType=0h| resCnt=0| tsId=2015.05.13D00:00:00.167705000
+INFO  2015.05.13 00:00:00.168 stream- | status=`EVENT_STARTED| descr="rollover of journal file"| funcName=`.stream.p.initJrn| arg=2015.05.13| defVal=`| tsId=2015.05.13D00:00:00.168033000
+INFO  2015.05.13 00:00:00.168 stream- | status=`EVENT_COMPLETED| descr="rollover of journal file"| funcName=`.stream.p.initJrn| resType=101h| resCnt=1| tsId=2015.05.13D00:00:00.168117000
+INFO  2015.05.13 01:00:08.727 sl    -  log continues in /home/guptah/EC/enterprise-components-ec-3.2.3/log/stocks.streamAggr/stocks.streamAggr.2015.05.13T01.00.08.log

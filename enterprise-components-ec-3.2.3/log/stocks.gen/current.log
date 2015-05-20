@@ -1,0 +1,7 @@
+INFO  2015.05.14 01:00:07.193 sl    -  log continued from /home/guptah/EC/enterprise-components-ec-3.2.3/log/stocks.gen/stocks.gen.2015.05.13T01.00.07.log
+WARN  2015.05.14 14:05:39.143 handle- Server stocks.tick with handle: 6 has been disconnected
+INFO  2015.05.14 14:05:39.143 tmr   - starting timer for function .hnd.rec.stocks_tick period 1000 id .hnd.rec.stocks_tick
+INFO  2015.05.14 14:05:39.143 tmr   - timer frequency increased by a factor of 5
+INFO  2015.05.14 14:05:39.143 tmr   - added callback, system timer 1000 ms 
+INFO  2015.05.14 14:05:39.143 tmr   - timer id: quote stopped
+INFO  2015.05.14 14:05:39.143 tmr   - timer id: trade stopped

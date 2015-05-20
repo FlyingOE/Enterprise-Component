@@ -1,0 +1,6 @@
+Welcome to kdb+ 32bit edition
+For support please see http://groups.google.com/d/forum/personal-kdbplus
+Tutorials can be found at http://code.kx.com/wiki/Tutorials
+To exit, type \\
+To remove this startup msg, edit q.q
+Logging to file: /home/guptah/EC/enterprise-components-ec-3.2.3/log/stocks.hdb/stocks.hdb.2015.05.12T20.42.37.log

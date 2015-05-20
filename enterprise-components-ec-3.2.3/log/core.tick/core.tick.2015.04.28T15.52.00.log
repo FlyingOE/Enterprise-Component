@@ -1,0 +1,51 @@
+INFO  2015.04.28 15:52:00.477 sl    - KDB+ ver: 3.2 rel: 2014.11.26 OS: l32 PID: 13328
+INFO  2015.04.28 15:52:00.477 sl    - no license found
+INFO  2015.04.28 15:52:00.477 sl    - user: guptah host: vt0dmkdl01 port: 17010
+INFO  2015.04.28 15:52:00.477 sl    - dir: /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/components/tickHF file: tickHF.q
+INFO  2015.04.28 15:52:00.477 sl    - no command line parameters
+INFO  2015.04.28 15:52:00.477 sl    - GMT: 2015.04.28T15:52:00.477 loc. time: 2015.04.28T11:52:00.477
+INFO  2015.04.28 15:52:00.477 sl    - QHOME: /home/guptah/EC/enterprise-components-ec-3.2.3/bin/q/
+INFO  2015.04.28 15:52:00.477 sl    - Loading qsl/event.q library...
+INFO  2015.04.28 15:52:00.478 sl    - /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/event.q loaded
+INFO  2015.04.28 15:52:00.478 sl    - Loading qsl/handle.q library...
+INFO  2015.04.28 15:52:00.478 sl    -   Loading qsl/callback.q library...
+INFO  2015.04.28 15:52:00.479 sl    -   /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/callback.q loaded
+INFO  2015.04.28 15:52:00.479 sl    -   qsl/timer.q library already loaded
+INFO  2015.04.28 15:52:00.480 sl    - /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/handle.q loaded
+INFO  2015.04.28 15:52:00.480 sl    - Loading qsl/authorization.q library...
+INFO  2015.04.28 15:52:00.481 sl    - /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/authorization.q loaded
+INFO  2015.04.28 15:52:00.481 sl    - Loading qsl/sub.q library...
+INFO  2015.04.28 15:52:00.482 sl    -   Loading qsl/sub_tickHF.q library...
+INFO  2015.04.28 15:52:00.482 sl    -   /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/sub_tickHF.q loaded
+INFO  2015.04.28 15:52:00.482 sl    -   Loading qsl/sub_tickLF.q library...
+INFO  2015.04.28 15:52:00.482 sl    -   /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/sub_tickLF.q loaded
+INFO  2015.04.28 15:52:00.482 sl    -   Loading qsl/sub_dist.q library...
+INFO  2015.04.28 15:52:00.483 sl    -   /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/sub_dist.q loaded
+INFO  2015.04.28 15:52:00.483 sl    - /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/sub.q loaded
+INFO  2015.04.28 15:52:00.483 sl    - Loading qsl/u.q library...
+INFO  2015.04.28 15:52:00.483 sl    - /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/u.q loaded
+INFO  2015.04.28 15:52:00.483 sl    - qsl/timer.q library already loaded
+INFO  2015.04.28 15:52:00.483 sl    - Loading cfgRdr/cfgRdr.q library...
+INFO  2015.04.28 15:52:00.487 sl    -   Loading qsl/parseq.q library...
+INFO  2015.04.28 15:52:00.489 sl    -   /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/parseq.q loaded
+INFO  2015.04.28 15:52:00.498 sl    - /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/cfgRdr/cfgRdr.q loaded
+INFO  2015.04.28 15:52:00.499 cr    - Parsing qsd files
+INFO  2015.04.28 15:52:00.521 cr    - Parsing cfg files
+INFO  2015.04.28 15:52:00.593 tickHF- | status=`EVENT_STARTED| descr="initializing tickHF component"| funcName=`.sl.main| arg=`| defVal=`| tsId=2015.04.28D15:52:00.593112000
+INFO  2015.04.28 15:52:00.594 tickHF- Initialized tickHF in zero-latency mode. Internal timer will be set to 1000 ms
+INFO  2015.04.28 15:52:00.594 tmr   - starting timer for function .tickHF.ts period 1000 id .tickHF.ts
+INFO  2015.04.28 15:52:00.594 tmr   - timer frequency increased by a factor of 10
+INFO  2015.04.28 15:52:00.594 tmr   - added callback, system timer 1000 ms 
+INFO  2015.04.28 15:52:00.594 tickHF- Initializing tickHF process for active day 2015.04.28
+INFO  2015.04.28 15:52:00.594 tickHF- Loading journal file:`:/home/guptah/EC/enterprise-components-ec-3.2.3/data/core.tick//core.tick2015.04.28, handle:6, entries:0
+INFO  2015.04.28 15:52:00.594 tickHF- | status=`EVENT_COMPLETED| descr="initializing tickHF component"| funcName=`.sl.main| resType=101h| resCnt=1| tsId=2015.04.28D15:52:00.593211000
+INFO  2015.04.28 15:52:00.600 cb    - Plugin .auth.p.pc for callback .z.pc will be always called as first one.
+INFO  2015.04.28 15:52:00.600 cb    - Plugin .auth.p.po for callback .z.po will be always called as first one.
+INFO  2015.04.28 15:52:00.600 auth  - uOpt in system.cfg is turned off, access for all users is granted. Audit view will be enabled only for users defined in access.cfg
+INFO  2015.04.28 15:52:00.601 sub   - | status=`EVENT_COMPLETED| descr="Reading subscription configuration for dist server"| funcName=`.sub.readCfg| resType=101h| resCnt=1| tsId=2015.04.28D15:52:00.600960000
+INFO  2015.04.28 15:52:00.601 sub   - | status=`EVENT_COMPLETED| descr="Auto initialization of subscription basing on dataflow configuration"| funcName=`.sub.init| resType=0h| resCnt=0| tsId=2015.04.28D15:52:00.601667000
+INFO  2015.04.28 15:52:00.602 sub   - | status=`EVENT_COMPLETED| descr="Auto initialization of connection to subscription sources basing on dataflow..| funcName=`.sub.hopenSrc| resType=0h| resCnt=0| tsId=2015.04.28D15:52:00.601927000
+INFO  2015.04.28 15:52:00.602 tickHF- component tickHF initialized with 0 fatals, 0 errors, 0 warnings
+INFO  2015.04.28 15:52:00.830 u     - Subscription request on h:8i. Table:`quote. Sym:`
+INFO  2015.04.28 15:52:00.830 u     - Subscription request on h:8i. Table:`trade. Sym:`
+INFO  2015.04.28 15:52:07.195 u     - Removing subscription on h:8i

@@ -1,0 +1,52 @@
+INFO  2015.04.28 15:52:00.614 sl    - KDB+ ver: 3.2 rel: 2014.11.26 OS: l32 PID: 13334
+INFO  2015.04.28 15:52:00.614 sl    - no license found
+INFO  2015.04.28 15:52:00.614 sl    - user: guptah host: vt0dmkdl01 port: 17011
+INFO  2015.04.28 15:52:00.614 sl    - dir: /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/components/rdb file: rdb.q
+INFO  2015.04.28 15:52:00.614 sl    - no command line parameters
+INFO  2015.04.28 15:52:00.614 sl    - GMT: 2015.04.28T15:52:00.614 loc. time: 2015.04.28T11:52:00.614
+INFO  2015.04.28 15:52:00.614 sl    - QHOME: /home/guptah/EC/enterprise-components-ec-3.2.3/bin/q/
+INFO  2015.04.28 15:52:00.614 sl    - Loading qsl/event.q library...
+INFO  2015.04.28 15:52:00.615 sl    - /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/event.q loaded
+INFO  2015.04.28 15:52:00.615 sl    - Loading qsl/handle.q library...
+INFO  2015.04.28 15:52:00.615 sl    -   Loading qsl/callback.q library...
+INFO  2015.04.28 15:52:00.616 sl    -   /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/callback.q loaded
+INFO  2015.04.28 15:52:00.616 sl    -   qsl/timer.q library already loaded
+INFO  2015.04.28 15:52:00.617 sl    - /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/handle.q loaded
+INFO  2015.04.28 15:52:00.617 sl    - Loading qsl/authorization.q library...
+INFO  2015.04.28 15:52:00.619 sl    - /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/authorization.q loaded
+INFO  2015.04.28 15:52:00.619 sl    - Loading qsl/sub.q library...
+INFO  2015.04.28 15:52:00.619 sl    -   Loading qsl/sub_tickHF.q library...
+INFO  2015.04.28 15:52:00.620 sl    -   /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/sub_tickHF.q loaded
+INFO  2015.04.28 15:52:00.620 sl    -   Loading qsl/sub_tickLF.q library...
+INFO  2015.04.28 15:52:00.620 sl    -   /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/sub_tickLF.q loaded
+INFO  2015.04.28 15:52:00.620 sl    -   Loading qsl/sub_dist.q library...
+INFO  2015.04.28 15:52:00.621 sl    -   /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/sub_dist.q loaded
+INFO  2015.04.28 15:52:00.621 sl    - /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/sub.q loaded
+INFO  2015.04.28 15:52:00.621 sl    - Loading cfgRdr/cfgRdr.q library...
+INFO  2015.04.28 15:52:00.625 sl    -   Loading qsl/parseq.q library...
+INFO  2015.04.28 15:52:00.628 sl    -   /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/parseq.q loaded
+INFO  2015.04.28 15:52:00.636 sl    - /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/cfgRdr/cfgRdr.q loaded
+INFO  2015.04.28 15:52:00.636 sl    - qsl/handle.q library already loaded
+INFO  2015.04.28 15:52:00.636 sl    - qsl/sub.q library already loaded
+INFO  2015.04.28 15:52:00.636 sl    - Loading qsl/store.q library...
+INFO  2015.04.28 15:52:00.637 sl    - /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/store.q loaded
+INFO  2015.04.28 15:52:00.638 cr    - Parsing qsd files
+INFO  2015.04.28 15:52:00.663 cr    - Parsing cfg files
+INFO  2015.04.28 15:52:00.760 rdb   - | status=`EVENT_STARTED| descr="initializing rdb component"| funcName=`.sl.main| arg=`| defVal=`| tsId=2015.04.28D15:52:00.760692000
+INFO  2015.04.28 15:52:00.775 store - store initialization completed
+INFO  2015.04.28 15:52:00.811 rdb   - | status=`EVENT_COMPLETED| descr="initializing rdb component"| funcName=`.sl.main| resType=101h| resCnt=1| tsId=2015.04.28D15:52:00.760789000
+INFO  2015.04.28 15:52:00.822 cb    - Plugin .auth.p.pc for callback .z.pc will be always called as first one.
+INFO  2015.04.28 15:52:00.822 cb    - Plugin .auth.p.po for callback .z.po will be always called as first one.
+INFO  2015.04.28 15:52:00.822 auth  - uOpt in system.cfg is turned off, access for all users is granted. Audit view will be enabled only for users defined in access.cfg
+INFO  2015.04.28 15:52:00.823 sub   - | status=`EVENT_COMPLETED| descr="Reading subscription configuration for dist server"| funcName=`.sub.readCfg| resType=101h| resCnt=1| tsId=2015.04.28D15:52:00.823057000
+INFO  2015.04.28 15:52:00.823 sub   - | status=`EVENT_COMPLETED| descr="Auto initialization of subscription basing on dataflow configuration"| funcName=`.sub.init| resType=101h| resCnt=1| tsId=2015.04.28D15:52:00.823735000
+INFO  2015.04.28 15:52:00.830 sub   - Initializing PROTOCOL_TICKHFcallbacks for :`sub`upd`jUpd
+INFO  2015.04.28 15:52:00.831 sub   - | status=`EVENT_STARTED| descr="garbage collection"| funcName=`.Q.gc| arg=()| defVal=`| tsId=2015.04.28D15:52:00.830978000
+INFO  2015.04.28 15:52:00.831 sub   - | status=`EVENT_COMPLETED| descr="garbage collection"| funcName=`.Q.gc| resType=-7h| resCnt=1| tsId=2015.04.28D15:52:00.831059000
+INFO  2015.04.28 15:52:00.831 sub   - | status=`EVENT_STARTED| descr="sub[x;y] callback"| funcName=`sub| arg=(`core.tick;((`quote;+`time`sym`bid`bidSize`ask`askSize!(`time$();`g#`symbol$..| defVal=`| tsId=2015.04.28D15:52:00.831315000
+INFO  2015.04.28 15:52:00.831 sub   - | status=`EVENT_COMPLETED| descr="sub[x;y] callback"| funcName=`sub| resType=11h| resCnt=2| tsId=2015.04.28D15:52:00.831606000
+INFO  2015.04.28 15:52:00.831 sub   - | status=`EVENT_STARTED| descr="replaying the data from core.tick"| funcName=`.sub.tickHF.replayData| arg=(2;`:/home/guptah/EC/enterprise-components-ec-3.2.3/data/core.tick//core.tick..| defVal=`| tsId=2015.04.28D15:52:00.831822000
+INFO  2015.04.28 15:52:00.831 sub   - Replaying 2 messages from: :/home/guptah/EC/enterprise-components-ec-3.2.3/data/core.tick//core.tick2015.04.28
+INFO  2015.04.28 15:52:00.832 sub   - | status=`EVENT_COMPLETED| descr="replaying the data from core.tick"| funcName=`.sub.tickHF.replayData| resType=101h| resCnt=1| tsId=2015.04.28D15:52:00.831922000
+INFO  2015.04.28 15:52:00.832 sub   - | status=`EVENT_COMPLETED| descr="Auto initialization of connection to subscription sources basing on dataflow..| funcName=`.sub.hopenSrc| resType=101h| resCnt=1| tsId=2015.04.28D15:52:00.824043000
+INFO  2015.04.28 15:52:00.832 rdb   - component rdb initialized with 0 fatals, 0 errors, 0 warnings

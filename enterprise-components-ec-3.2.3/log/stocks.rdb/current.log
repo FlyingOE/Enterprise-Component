@@ -1,0 +1,5 @@
+INFO  2015.05.14 01:00:07.657 sl    -  log continued from /home/guptah/EC/enterprise-components-ec-3.2.3/log/stocks.rdb/stocks.rdb.2015.05.13T01.00.07.log
+WARN  2015.05.14 14:05:38.908 handle- Server stocks.hdb with handle: 8 has been disconnected
+INFO  2015.05.14 14:05:38.909 tmr   - starting timer for function .hnd.rec.stocks_hdb period 1000 id .hnd.rec.stocks_hdb
+INFO  2015.05.14 14:05:38.909 tmr   - timer frequency increased by a factor of 10
+INFO  2015.05.14 14:05:38.909 tmr   - added callback, system timer 1000 ms 

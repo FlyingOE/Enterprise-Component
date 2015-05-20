@@ -1,0 +1,53 @@
+INFO  2015.05.15 19:38:19.068 sl    - KDB+ ver: 3.2 rel: 2014.11.26 OS: l32 PID: 31333
+INFO  2015.05.15 19:38:19.068 sl    - no license found
+INFO  2015.05.15 19:38:19.068 sl    - user: guptah host: vt0dmkdl01 port: 17021
+INFO  2015.05.15 19:38:19.068 sl    - dir: /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/components/feedCsv file: /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/components/feedCsv/feedCsv.q
+INFO  2015.05.15 19:38:19.068 sl    - args: -libs tickLFPublisher.q
+INFO  2015.05.15 19:38:19.068 sl    - GMT: 2015.05.15T19:38:19.068 loc. time: 2015.05.15T15:38:19.068
+INFO  2015.05.15 19:38:19.068 sl    - QHOME: /home/guptah/EC/enterprise-components-ec-3.2.3/bin/q
+INFO  2015.05.15 19:38:19.068 sl    - Loading qsl/event.q library...
+INFO  2015.05.15 19:38:19.069 sl    - /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/event.q loaded
+INFO  2015.05.15 19:38:19.069 sl    - Loading qsl/handle.q library...
+INFO  2015.05.15 19:38:19.069 sl    -   Loading qsl/callback.q library...
+INFO  2015.05.15 19:38:19.069 sl    -   /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/callback.q loaded
+INFO  2015.05.15 19:38:19.069 sl    -   qsl/timer.q library already loaded
+INFO  2015.05.15 19:38:19.071 sl    - /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/handle.q loaded
+INFO  2015.05.15 19:38:19.071 sl    - Loading qsl/authorization.q library...
+INFO  2015.05.15 19:38:19.072 sl    - /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/authorization.q loaded
+INFO  2015.05.15 19:38:19.072 sl    - Loading qsl/sub.q library...
+INFO  2015.05.15 19:38:19.072 sl    -   Loading qsl/sub_tickHF.q library...
+INFO  2015.05.15 19:38:19.073 sl    -   /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/sub_tickHF.q loaded
+INFO  2015.05.15 19:38:19.073 sl    -   Loading qsl/sub_tickLF.q library...
+INFO  2015.05.15 19:38:19.073 sl    -   /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/sub_tickLF.q loaded
+INFO  2015.05.15 19:38:19.073 sl    -   Loading qsl/sub_dist.q library...
+INFO  2015.05.15 19:38:19.073 sl    -   /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/sub_dist.q loaded
+INFO  2015.05.15 19:38:19.074 sl    - /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/sub.q loaded
+INFO  2015.05.15 19:38:19.074 sl    - Loading cfgRdr/cfgRdr.q library...
+INFO  2015.05.15 19:38:19.077 sl    -   Loading qsl/parseq.q library...
+INFO  2015.05.15 19:38:19.083 sl    -   /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/parseq.q loaded
+INFO  2015.05.15 19:38:19.091 sl    - /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/cfgRdr/cfgRdr.q loaded
+INFO  2015.05.15 19:38:19.091 sl    - qsl/handle.q library already loaded
+INFO  2015.05.15 19:38:19.091 sl    - qsl/timer.q library already loaded
+INFO  2015.05.15 19:38:19.092 cr    - Parsing qsd files
+INFO  2015.05.15 19:38:19.115 cr    - Parsing cfg files
+INFO  2015.05.15 19:38:19.252 feedCs- | status=`EVENT_STARTED| descr="initializing feedCsv component"| funcName=`.sl.main| arg=`| defVal=`| tsId=2015.05.15D19:38:19.252896000
+INFO  2015.05.15 19:38:19.258 sl    - Loading tickLFPublisher.q library...
+INFO  2015.05.15 19:38:19.265 sl    - /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/components/feedCsv/tickLFPublisher.q loaded
+INFO  2015.05.15 19:38:19.265 sl    - tickLFPublisher.q library already loaded
+INFO  2015.05.15 19:38:19.265 fCsv  - Set timer to 5000
+INFO  2015.05.15 19:38:19.265 tmr   - starting timer for function .fcsv.p.ts period 5000 id .fcsv.ts
+INFO  2015.05.15 19:38:19.265 tmr   - timer frequency increased by a factor of 2
+INFO  2015.05.15 19:38:19.265 tmr   - added callback, system timer 5000 ms 
+INFO  2015.05.15 19:38:19.648 feedCs- | status=`EVENT_COMPLETED| descr="initializing feedCsv component"| funcName=`.sl.main| resType=101h| resCnt=1| tsId=2015.05.15D19:38:19.253006000
+INFO  2015.05.15 19:38:19.662 cb    - Plugin .auth.p.pc for callback .z.pc will be always called as first one.
+INFO  2015.05.15 19:38:19.662 cb    - Plugin .auth.p.po for callback .z.po will be always called as first one.
+INFO  2015.05.15 19:38:19.662 auth  - uOpt in system.cfg is turned off, access for all users is granted. Audit view will be enabled only for users defined in access.cfg
+INFO  2015.05.15 19:38:19.662 sub   - | status=`EVENT_COMPLETED| descr="Reading subscription configuration for dist server"| funcName=`.sub.readCfg| resType=101h| resCnt=1| tsId=2015.05.15D19:38:19.662303000
+INFO  2015.05.15 19:38:19.663 sub   - | status=`EVENT_COMPLETED| descr="Auto initialization of subscription basing on dataflow configuration"| funcName=`.sub.init| resType=0h| resCnt=0| tsId=2015.05.15D19:38:19.663044000
+INFO  2015.05.15 19:38:19.663 sub   - | status=`EVENT_COMPLETED| descr="Auto initialization of connection to subscription sources basing on dataflow..| funcName=`.sub.hopenSrc| resType=0h| resCnt=0| tsId=2015.05.15D19:38:19.663324000
+INFO  2015.05.15 19:38:19.663 feedCs- component feedCsv initialized with 0 fatals, 0 errors, 0 warnings
+INFO  2015.05.15 19:40:49.669 LFPub - Start processing #files:1 for table tradeCDS
+INFO  2015.05.15 19:40:49.669 LFPub - | status=`EVENT_STARTED| descr="Process data from file :/home/guptah/EC/enterprise-components-ec-3.2.3/demoC..| funcName=`.fcsv.p.processOneFile| arg=(`:/home/guptah/EC/enterprise-components-ec-3.2.3/demoCsv/CDSFinal1.upd.csv;`..| defVal=`error| tsId=2015.05.15D19:40:49.669185000
+INFO  2015.05.15 19:40:49.669 fCsv  - Read file: :/home/guptah/EC/enterprise-components-ec-3.2.3/demoCsv/CDSFinal1.upd.csv, table: tradeCDS
+INFO  2015.05.15 19:40:49.713 fCsv  - Publishing data #count: 7801, func: .tickLF.pubUpd, table: tradeCDS
+INFO  2015.05.15 19:40:49.730 fCsv  - Move to archive #files:1 to directory: :/home/guptah/EC/enterprise-components-ec-3.2.3/archive/demoCsv/2015.05

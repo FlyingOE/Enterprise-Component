@@ -1,0 +1,44 @@
+INFO  2015.05.12 20:42:37.056 sl    - KDB+ ver: 3.2 rel: 2014.11.26 OS: l32 PID: 13758
+INFO  2015.05.12 20:42:37.056 sl    - no license found
+INFO  2015.05.12 20:42:37.056 sl    - user: guptah host: vt0dmkdl01 port: 17004
+INFO  2015.05.12 20:42:37.056 sl    - dir: /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/components/hdb file: hdb.q
+INFO  2015.05.12 20:42:37.056 sl    - no command line parameters
+INFO  2015.05.12 20:42:37.056 sl    - GMT: 2015.05.12T20:42:37.056 loc. time: 2015.05.12T16:42:37.056
+INFO  2015.05.12 20:42:37.056 sl    - QHOME: /home/guptah/EC/enterprise-components-ec-3.2.3/bin/q
+INFO  2015.05.12 20:42:37.056 sl    - Loading qsl/event.q library...
+INFO  2015.05.12 20:42:37.057 sl    - /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/event.q loaded
+INFO  2015.05.12 20:42:37.057 sl    - Loading qsl/handle.q library...
+INFO  2015.05.12 20:42:37.057 sl    -   Loading qsl/callback.q library...
+INFO  2015.05.12 20:42:37.057 sl    -   /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/callback.q loaded
+INFO  2015.05.12 20:42:37.057 sl    -   qsl/timer.q library already loaded
+INFO  2015.05.12 20:42:37.059 sl    - /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/handle.q loaded
+INFO  2015.05.12 20:42:37.059 sl    - Loading qsl/authorization.q library...
+INFO  2015.05.12 20:42:37.060 sl    - /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/authorization.q loaded
+INFO  2015.05.12 20:42:37.060 sl    - Loading qsl/sub.q library...
+INFO  2015.05.12 20:42:37.060 sl    -   Loading qsl/sub_tickHF.q library...
+INFO  2015.05.12 20:42:37.061 sl    -   /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/sub_tickHF.q loaded
+INFO  2015.05.12 20:42:37.061 sl    -   Loading qsl/sub_tickLF.q library...
+INFO  2015.05.12 20:42:37.061 sl    -   /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/sub_tickLF.q loaded
+INFO  2015.05.12 20:42:37.061 sl    -   Loading qsl/sub_dist.q library...
+INFO  2015.05.12 20:42:37.062 sl    -   /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/sub_dist.q loaded
+INFO  2015.05.12 20:42:37.065 sl    - /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/sub.q loaded
+INFO  2015.05.12 20:42:37.065 sl    - Loading cfgRdr/cfgRdr.q library...
+INFO  2015.05.12 20:42:37.079 sl    -   Loading qsl/parseq.q library...
+INFO  2015.05.12 20:42:37.093 sl    -   /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/qsl/parseq.q loaded
+INFO  2015.05.12 20:42:37.128 sl    - /home/guptah/EC/enterprise-components-ec-3.2.3/bin/ec/libraries/cfgRdr/cfgRdr.q loaded
+INFO  2015.05.12 20:42:37.139 cr    - Parsing qsd files
+INFO  2015.05.12 20:42:37.236 cr    - Parsing cfg files
+INFO  2015.05.12 20:42:37.424 hdb   - | status=`EVENT_STARTED| descr="initializing hdb component"| funcName=`.sl.main| arg=`| defVal=`| tsId=2015.05.12D20:42:37.424249000
+INFO  2015.05.12 20:42:37.433 hdb   - | status=`EVENT_STARTED| descr="hdb reloading, hdb dir:/home/guptah/EC/enterprise-components-ec-3.2.3/data/s..| funcName=`.hdb.p.reload| arg=()| defVal=`| tsId=2015.05.12D20:42:37.433525000
+INFO  2015.05.12 20:42:37.433 hdb   - | status=`EVENT_COMPLETED| descr="hdb reloading, hdb dir:/home/guptah/EC/enterprise-components-ec-3.2.3/data/s..| funcName=`.hdb.p.reload| resType=101h| resCnt=1| tsId=2015.05.12D20:42:37.433666000
+INFO  2015.05.12 20:42:37.434 hdb   - | status=`EVENT_COMPLETED| descr="initializing hdb component"| funcName=`.sl.main| resType=101h| resCnt=1| tsId=2015.05.12D20:42:37.424348000
+INFO  2015.05.12 20:42:37.447 cb    - Plugin .auth.p.pc for callback .z.pc will be always called as first one.
+INFO  2015.05.12 20:42:37.447 cb    - Plugin .auth.p.po for callback .z.po will be always called as first one.
+INFO  2015.05.12 20:42:37.447 auth  - uOpt in system.cfg is turned off, access for all users is granted. Audit view will be enabled only for users defined in access.cfg
+INFO  2015.05.12 20:42:37.448 sub   - | status=`EVENT_COMPLETED| descr="Reading subscription configuration for dist server"| funcName=`.sub.readCfg| resType=101h| resCnt=1| tsId=2015.05.12D20:42:37.447428000
+INFO  2015.05.12 20:42:37.448 sub   - | status=`EVENT_COMPLETED| descr="Auto initialization of subscription basing on dataflow configuration"| funcName=`.sub.init| resType=0h| resCnt=0| tsId=2015.05.12D20:42:37.448192000
+INFO  2015.05.12 20:42:37.448 sub   - | status=`EVENT_COMPLETED| descr="Auto initialization of connection to subscription sources basing on dataflow..| funcName=`.sub.hopenSrc| resType=0h| resCnt=0| tsId=2015.05.12D20:42:37.448507000
+INFO  2015.05.12 20:42:37.448 hdb   - component hdb initialized with 0 fatals, 0 errors, 0 warnings
+INFO  2015.05.13 00:00:00.178 hdb   - | status=`EVENT_STARTED| descr="hdb reloading, hdb dir:/home/guptah/EC/enterprise-components-ec-3.2.3/data/s..| funcName=`.hdb.p.reload| arg=()| defVal=`| tsId=2015.05.13D00:00:00.178242000
+INFO  2015.05.13 00:00:00.179 hdb   - | status=`EVENT_COMPLETED| descr="hdb reloading, hdb dir:/home/guptah/EC/enterprise-components-ec-3.2.3/data/s..| funcName=`.hdb.p.reload| resType=101h| resCnt=1| tsId=2015.05.13D00:00:00.178503000
+INFO  2015.05.13 01:00:07.459 sl    -  log continues in /home/guptah/EC/enterprise-components-ec-3.2.3/log/stocks.hdb/stocks.hdb.2015.05.13T01.00.07.log
