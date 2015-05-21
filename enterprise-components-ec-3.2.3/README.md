@@ -1,6 +1,6 @@
 ## [Enterprise Components for kdb+](tutorial)
 
-![Quick Setup]
+### Quick Setup
 1. Check out the code from github
 2. create a symlink in EC/enterprise-components-ec-3.2.3: etc --> bin/etc by running: ln -s bin/etc etc
 3. Source the environment settings by running source etc/env.sh
